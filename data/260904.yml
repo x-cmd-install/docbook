@@ -1,11 +1,13 @@
 about:
-  description: The DocBook schemas
+  description:
+  |
+    The DocBook schemas
   license: NOASSERTION
   homepage: 
   head: 0f5c6e7
   archived: false
   latestVersion: 5.2
-  collectedAt: 2026-09-04T02:41:17Z
+  collectedAt: 2026-09-04T19:30:33Z
 timeline:
   created: 2011-04-19
   lastCommit: 2026-03-06
@@ -16,7 +18,7 @@ popularity:
   fork: 26
   release: 14
   contributor: 10
-  pullRequest: 11
+  pullRequest: 116
   issue: 148
 language:
   XSLT: 236361
@@ -26,10 +28,18 @@ language:
   Perl: 4694
   XProc: 4001
   Makefile: 1994
-totalLine: 269440
+totalBytes: 269440
 recent:
   last30d:
     since: 2026-08-05
+    release: 0
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last60d:
+    since: 2026-07-06
     release: 0
     mergedPR: 0
     openPR: 0
@@ -60,3 +70,21 @@ recent:
     closedIssue: 1
     openIssue: 0
     commit: 1
+  last720d:
+    since: 2024-09-14
+    release: 0
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 10
+    openIssue: 0
+    commit: 1
+total:
+  release: 14
+  mergedPR: 105
+  openPR: 0
+  closedIssue: 148
+  openIssue: 0
+  commit: 1632
+---
+---
+
