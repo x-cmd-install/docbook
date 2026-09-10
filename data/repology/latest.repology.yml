@@ -1,43 +1,4 @@
 - repo: parrot
-  subrepo: parrot-updates/main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-11
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: kali_rolling
-  subrepo: main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-11
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: pardus_21
-  subrepo: main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-6
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: parrot
   subrepo: parrot/main
   srcname: docbook
   binnames:
@@ -122,6 +83,19 @@
   visiblename: docbook
   version: "4.5"
   origversion: 4.5-6
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11
   status: outdated
   maintainers:
     - packages@qa.debian.org
@@ -249,6 +223,19 @@
   origversion: null
   status: newest
   summary: Standard XML representation system for technical documents
+- repo: kali_rolling
+  subrepo: main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
 - repo: openbsd
   srcname: textproc/docbook
   binname: docbook
@@ -283,6 +270,19 @@
     - BSD
   categories:
     - XML
+- repo: pardus_21
+  subrepo: main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-6
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
 - repo: pkgsrc_2026_1
   srcname: textproc/docbook
   binname: docbook

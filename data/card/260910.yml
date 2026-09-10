@@ -7,7 +7,7 @@ about:
   latestVersion: "5.2"
   latestRelease: "5.2"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T20:45:02Z
+  collectedAt: 2026-09-10T23:07:16Z
 timeline:
   created: 2011-04-19
   lastCommit: 2026-03-06
@@ -89,7 +89,7 @@ total:
   commit: 1632
 ---
 path: /home/runner/.x-repo/github.com/docbook/docbook
-collectedAt: 2026-09-10T20:45:05Z
+collectedAt: 2026-09-10T23:07:19Z
 loc:
   Xml:
     code: 262425
