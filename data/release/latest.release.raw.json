@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 110245,
       "digest": null,
-      "download_count": 27,
+      "download_count": 28,
       "created_at": "2024-02-16T18:49:47Z",
       "updated_at": "2024-02-16T18:49:47Z",
       "browser_download_url": "https://github.com/docbook/docbook/releases/download/5.2/dbforms-5.2.zip"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 991634,
       "digest": null,
-      "download_count": 20075,
+      "download_count": 20341,
       "created_at": "2024-02-16T18:49:47Z",
       "updated_at": "2024-02-16T18:49:47Z",
       "browser_download_url": "https://github.com/docbook/docbook/releases/download/5.2/docbook-5.2.zip"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 78413,
       "digest": null,
-      "download_count": 37,
+      "download_count": 38,
       "created_at": "2024-02-16T18:49:47Z",
       "updated_at": "2024-02-16T18:49:47Z",
       "browser_download_url": "https://github.com/docbook/docbook/releases/download/5.2/publishers-5.2.zip"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 45296,
       "digest": null,
-      "download_count": 29,
+      "download_count": 30,
       "created_at": "2024-02-16T18:49:47Z",
       "updated_at": "2024-02-16T18:49:47Z",
       "browser_download_url": "https://github.com/docbook/docbook/releases/download/5.2/sdocbook-5.2.zip"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 147701,
       "digest": null,
-      "download_count": 23,
+      "download_count": 24,
       "created_at": "2024-02-16T18:49:47Z",
       "updated_at": "2024-02-16T18:49:47Z",
       "browser_download_url": "https://github.com/docbook/docbook/releases/download/5.2/slides-5.2.zip"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 159311,
       "digest": null,
-      "download_count": 27,
+      "download_count": 28,
       "created_at": "2024-02-16T18:49:47Z",
       "updated_at": "2024-02-16T18:49:47Z",
       "browser_download_url": "https://github.com/docbook/docbook/releases/download/5.2/website-5.2.zip"
