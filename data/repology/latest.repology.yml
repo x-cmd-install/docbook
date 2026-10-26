@@ -1,33 +1,24 @@
-- repo: apertis_v2026
-  subrepo: v2026/development
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: docbook
   binnames:
     - docbook
   visiblename: docbook
   version: "4.5"
-  origversion: 4.5-11+apertis0
+  origversion: 4.5-11
   status: outdated
   maintainers:
     - packages@qa.debian.org
-- repo: apertis_v2027
-  subrepo: v2027dev1/development
+  categories:
+    - text
+- repo: parrot
+  subrepo: parrot/main
   srcname: docbook
   binnames:
     - docbook
   visiblename: docbook
   version: "4.5"
-  origversion: 4.5-11+apertis0
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-- repo: pardus_21
-  subrepo: main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-6
+  origversion: 4.5-11
   status: outdated
   maintainers:
     - packages@qa.debian.org
@@ -72,6 +63,28 @@
   visiblename: docbook
   version: "4.5"
   origversion: 4.5-10+apertis0
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+- repo: apertis_v2026
+  subrepo: v2026/development
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11+apertis0
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+- repo: apertis_v2027
+  subrepo: v2027dev1/development
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11+apertis0
   status: outdated
   maintainers:
     - packages@qa.debian.org
@@ -246,19 +259,6 @@
   summary: docbook SGML and XML stylesheets
   categories:
     - Desktop (GNOME)/Documentation
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-10
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - universe/text
 - repo: openpkg_current
   srcname: docbook
   visiblename: docbook
@@ -270,27 +270,14 @@
     - BSD
   categories:
     - XML
-- repo: parrot
-  subrepo: parrot-updates/main
+- repo: pardus_21
+  subrepo: main
   srcname: docbook
   binnames:
     - docbook
   visiblename: docbook
   version: "4.5"
-  origversion: 4.5-11
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: parrot
-  subrepo: parrot/main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-11
+  origversion: 4.5-6
   status: outdated
   maintainers:
     - packages@qa.debian.org
@@ -472,6 +459,19 @@
   visiblename: docbook
   version: "4.5"
   origversion: 4.5-9
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - universe/text
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-10
   status: outdated
   maintainers:
     - packages@qa.debian.org
