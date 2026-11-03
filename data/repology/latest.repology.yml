@@ -1,107 +1,3 @@
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-11
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-10
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: deepin_25
-  subrepo: main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-8
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-6
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-11
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: raspbian_testing
-  subrepo: main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-11
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: raspbian_stable
-  subrepo: main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-11
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-6
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
 - repo: aerynos
   srcname: docbook
   visiblename: docbook
@@ -255,6 +151,45 @@
     - packages@qa.debian.org
   categories:
     - text
+- repo: deepin_25
+  subrepo: main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-8
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-6
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
 - repo: homebrew
   srcname: docbook
   visiblename: docbook
@@ -323,7 +258,7 @@
   categories:
     - text
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: docbook
   binnames:
     - docbook
@@ -336,7 +271,7 @@
   categories:
     - text
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: docbook
   binnames:
     - docbook
@@ -392,6 +327,71 @@
   visiblename: docbook
   version: "4.5"
   origversion: 4.5-6
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-6
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-10
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: raspbian_stable
+  subrepo: main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: raspbian_testing
+  subrepo: main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11
   status: outdated
   maintainers:
     - packages@qa.debian.org
