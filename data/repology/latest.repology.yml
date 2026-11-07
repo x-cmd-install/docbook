@@ -1,3 +1,36 @@
+- repo: kali_rolling
+  subrepo: main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: homebrew
+  srcname: docbook
+  visiblename: docbook
+  version: 5.2.1
+  origversion: null
+  status: newest
+  summary: Standard XML representation system for technical documents
 - repo: aerynos
   srcname: docbook
   visiblename: docbook
@@ -177,39 +210,6 @@
     - packages@qa.debian.org
   categories:
     - text
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-11
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: homebrew
-  srcname: docbook
-  visiblename: docbook
-  version: 5.2.1
-  origversion: null
-  status: newest
-  summary: Standard XML representation system for technical documents
-- repo: kali_rolling
-  subrepo: main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-11
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
 - repo: openbsd
   srcname: textproc/docbook
   binname: docbook
@@ -233,17 +233,6 @@
   summary: docbook SGML and XML stylesheets
   categories:
     - Desktop (GNOME)/Documentation
-- repo: openpkg_current
-  srcname: docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: null
-  status: outdated
-  summary: DocBook SGML DTD and Tools
-  licenses:
-    - BSD
-  categories:
-    - XML
 - repo: pardus_21
   subrepo: main
   srcname: docbook
@@ -258,7 +247,7 @@
   categories:
     - text
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: docbook
   binnames:
     - docbook
@@ -271,7 +260,7 @@
   categories:
     - text
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: docbook
   binnames:
     - docbook
@@ -518,6 +507,19 @@
     - universe/text
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11build1
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - universe/text
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: docbook
   binnames:
     - docbook
