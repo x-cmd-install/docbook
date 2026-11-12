@@ -1,3 +1,36 @@
+- repo: raspbian_testing
+  subrepo: main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: aerynos
+  srcname: docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: null
+  status: outdated
+  summary: Markup schema, suitable for writing technical books and documentation
+  licenses:
+    - DocBook-XML
+- repo: apertis_v2023
+  subrepo: v2023/development
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-6co1
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
 - repo: apertis_v2024
   subrepo: v2024/development
   srcname: docbook
@@ -28,52 +61,6 @@
   visiblename: docbook
   version: "4.5"
   origversion: 4.5-11+apertis0
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-- repo: parrot
-  subrepo: parrot/main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-11
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-11
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: aerynos
-  srcname: docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: null
-  status: outdated
-  summary: Markup schema, suitable for writing technical books and documentation
-  licenses:
-    - DocBook-XML
-- repo: apertis_v2023
-  subrepo: v2023/development
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-6co1
   status: outdated
   maintainers:
     - packages@qa.debian.org
@@ -272,6 +259,32 @@
     - packages@qa.debian.org
   categories:
     - text
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: parrot
+  subrepo: parrot/main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
 - repo: pkgsrc_2026_2
   srcname: textproc/docbook
   binname: docbook
@@ -361,19 +374,6 @@
   categories:
     - text
 - repo: raspbian_stable
-  subrepo: main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-11
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: raspbian_testing
   subrepo: main
   srcname: docbook
   binnames:
