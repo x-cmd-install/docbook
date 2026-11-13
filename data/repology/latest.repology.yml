@@ -1,5 +1,31 @@
-- repo: raspbian_testing
+- repo: pardus_21
   subrepo: main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-6
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: parrot
+  subrepo: parrot/main
   srcname: docbook
   binnames:
     - docbook
@@ -246,45 +272,6 @@
   summary: docbook SGML and XML stylesheets
   categories:
     - Desktop (GNOME)/Documentation
-- repo: pardus_21
-  subrepo: main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-6
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-11
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: parrot
-  subrepo: parrot/main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-11
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
 - repo: pkgsrc_2026_2
   srcname: textproc/docbook
   binname: docbook
@@ -374,6 +361,19 @@
   categories:
     - text
 - repo: raspbian_stable
+  subrepo: main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: raspbian_testing
   subrepo: main
   srcname: docbook
   binnames:
