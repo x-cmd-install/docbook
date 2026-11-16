@@ -1,29 +1,3 @@
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-6
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - universe/text
-- repo: deepin_23
-  subrepo: main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-8
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
 - repo: deepin_25
   subrepo: main
   srcname: docbook
@@ -45,6 +19,56 @@
   visiblename: docbook
   version: "4.5"
   origversion: 4.5-6
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-6
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - universe/text
+- repo: deepin_unstable
+  subrepo: main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-6+apricot
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+- repo: deepin_23
+  subrepo: main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-8
   status: outdated
   maintainers:
     - packages@qa.debian.org
@@ -179,30 +203,6 @@
     - packages@qa.debian.org
   categories:
     - text
-- repo: deepin_unstable
-  subrepo: main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-6+apricot
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-11
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
 - repo: homebrew
   srcname: docbook
   visiblename: docbook
@@ -260,7 +260,7 @@
   categories:
     - text
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: docbook
   binnames:
     - docbook
@@ -273,7 +273,7 @@
   categories:
     - text
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: docbook
   binnames:
     - docbook
