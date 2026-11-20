@@ -1,16 +1,38 @@
-- repo: raspbian_stable
-  subrepo: main
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
   srcname: docbook
   binnames:
     - docbook
   visiblename: docbook
   version: "4.5"
-  origversion: 4.5-11
+  origversion: 4.5-6
   status: outdated
   maintainers:
     - packages@qa.debian.org
   categories:
-    - text
+    - universe/text
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-6
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - universe/text
+- repo: aerynos
+  srcname: docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: null
+  status: outdated
+  summary: Markup schema, suitable for writing technical books and documentation
+  licenses:
+    - DocBook-XML
 - repo: apertis_v2023
   subrepo: v2023/development
   srcname: docbook
@@ -22,15 +44,6 @@
   status: outdated
   maintainers:
     - packages@qa.debian.org
-- repo: aerynos
-  srcname: docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: null
-  status: outdated
-  summary: Markup schema, suitable for writing technical books and documentation
-  licenses:
-    - DocBook-XML
 - repo: apertis_v2024
   subrepo: v2024/development
   srcname: docbook
@@ -260,7 +273,7 @@
   categories:
     - text
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: docbook
   binnames:
     - docbook
@@ -273,7 +286,7 @@
   categories:
     - text
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: docbook
   binnames:
     - docbook
@@ -373,6 +386,19 @@
     - packages@qa.debian.org
   categories:
     - text
+- repo: raspbian_stable
+  subrepo: main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-11
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
 - repo: raspbian_testing
   subrepo: main
   srcname: docbook
@@ -403,32 +429,6 @@
     - text
 - repo: ubuntu_16_04
   subrepo: xenial/universe
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-6
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - universe/text
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-6
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - universe/text
-- repo: ubuntu_20_04
-  subrepo: focal/universe
   srcname: docbook
   binnames:
     - docbook
