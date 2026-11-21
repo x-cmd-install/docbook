@@ -1,5 +1,5 @@
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
+- repo: debian_11
+  subrepo: bullseye/main
   srcname: docbook
   binnames:
     - docbook
@@ -10,20 +10,32 @@
   maintainers:
     - packages@qa.debian.org
   categories:
-    - universe/text
-- repo: ubuntu_20_04
-  subrepo: focal/universe
+    - text
+- repo: pkgsrc_2026_2
+  srcname: textproc/docbook
+  binname: docbook
+  visiblename: textproc/docbook
+  version: "4.5"
+  origversion: null
+  status: outdated
+  summary: SGML DTD designed for computer documentation
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - textproc
+- repo: debian_12
+  subrepo: bookworm/main
   srcname: docbook
   binnames:
     - docbook
   visiblename: docbook
   version: "4.5"
-  origversion: 4.5-6
+  origversion: 4.5-10
   status: outdated
   maintainers:
     - packages@qa.debian.org
   categories:
-    - universe/text
+    - text
 - repo: aerynos
   srcname: docbook
   visiblename: docbook
@@ -88,32 +100,6 @@
   status: outdated
   maintainers:
     - packages@qa.debian.org
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-6
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-10
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
 - repo: debian_13
   subrepo: trixie/main
   srcname: docbook
@@ -153,17 +139,6 @@
     - packages@qa.debian.org
   categories:
     - text
-- repo: deepin_unstable
-  subrepo: main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-6+apricot
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
 - repo: deepin_23
   subrepo: main
   srcname: docbook
@@ -298,18 +273,6 @@
     - packages@qa.debian.org
   categories:
     - text
-- repo: pkgsrc_2026_2
-  srcname: textproc/docbook
-  binname: docbook
-  visiblename: textproc/docbook
-  version: "4.5"
-  origversion: null
-  status: outdated
-  summary: SGML DTD designed for computer documentation
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - textproc
 - repo: pkgsrc_2026_3
   srcname: textproc/docbook
   binname: docbook
@@ -429,6 +392,32 @@
     - text
 - repo: ubuntu_16_04
   subrepo: xenial/universe
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-6
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - universe/text
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-6
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - universe/text
+- repo: ubuntu_20_04
+  subrepo: focal/universe
   srcname: docbook
   binnames:
     - docbook
