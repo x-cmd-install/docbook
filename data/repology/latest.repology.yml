@@ -1,36 +1,11 @@
-- repo: debian_11
-  subrepo: bullseye/main
+- repo: raspbian_testing
+  subrepo: main
   srcname: docbook
   binnames:
     - docbook
   visiblename: docbook
   version: "4.5"
-  origversion: 4.5-6
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: pkgsrc_2026_2
-  srcname: textproc/docbook
-  binname: docbook
-  visiblename: textproc/docbook
-  version: "4.5"
-  origversion: null
-  status: outdated
-  summary: SGML DTD designed for computer documentation
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - textproc
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-10
+  origversion: 4.5-11
   status: outdated
   maintainers:
     - packages@qa.debian.org
@@ -100,6 +75,32 @@
   status: outdated
   maintainers:
     - packages@qa.debian.org
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-6
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: docbook
+  binnames:
+    - docbook
+  visiblename: docbook
+  version: "4.5"
+  origversion: 4.5-10
+  status: outdated
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - text
 - repo: debian_13
   subrepo: trixie/main
   srcname: docbook
@@ -273,6 +274,18 @@
     - packages@qa.debian.org
   categories:
     - text
+- repo: pkgsrc_2026_2
+  srcname: textproc/docbook
+  binname: docbook
+  visiblename: textproc/docbook
+  version: "4.5"
+  origversion: null
+  status: outdated
+  summary: SGML DTD designed for computer documentation
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - textproc
 - repo: pkgsrc_2026_3
   srcname: textproc/docbook
   binname: docbook
@@ -350,19 +363,6 @@
   categories:
     - text
 - repo: raspbian_stable
-  subrepo: main
-  srcname: docbook
-  binnames:
-    - docbook
-  visiblename: docbook
-  version: "4.5"
-  origversion: 4.5-11
-  status: outdated
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - text
-- repo: raspbian_testing
   subrepo: main
   srcname: docbook
   binnames:
